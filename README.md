@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/gh/salesforce/reactive-grpc/tree/master.svg?style=svg)](https://circleci.com/gh/salesforce/reactive-grpc/tree/master)
-
 # What is reactive-grpc?
 Reactive gRPC is a suite of libraries for using gRPC with [Reactive Streams](http://www.reactive-streams.org/) programming libraries. Using a protocol buffers
 compiler plugin, Reactive gRPC generates alternative gRPC bindings for each reactive technology.
@@ -7,9 +5,13 @@ The reactive bindings support unary and streaming operations in both directions.
 back-pressure support, to deliver end-to-end back-pressure-based flow control in line with Reactive Streams
 back-pressure model.
 
+:warning: Reactive-gRPC is [effectively paused](https://github.com/salesforce/reactive-grpc/issues/337). It's seeking
+a new home and maintainers.
+
 Reactive gRPC supports the following reactive programming models:
 
 * [RxJava 2](https://github.com/salesforce/reactive-grpc/tree/master/rx-java)
+* [RxJava 3](https://github.com/salesforce/reactive-grpc/tree/master/rx3-java)
 * [Spring Reactor](https://github.com/salesforce/reactive-grpc/tree/master/reactor)
 
 [Akka gRPC](https://github.com/akka/akka-grpc) is now mature and production ready. Use that for Akka-based services.
@@ -18,6 +20,7 @@ Reactive gRPC supports the following reactive programming models:
 See the readme in each technology-specific sub-directory for usage details.
 
 * [Rx-Java](https://github.com/salesforce/reactive-grpc/tree/master/rx-java)
+* [Rx3-Java](https://github.com/salesforce/reactive-grpc/tree/master/rx3-java)
 * [Spring Reactor](https://github.com/salesforce/reactive-grpc/tree/master/reactor)
 
 # Demos
